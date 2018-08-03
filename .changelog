@@ -4,7 +4,7 @@ declare(strict_types=1);
 use ChangelogGenerator\ChangelogConfig;
 
 return [
-    'changelog-generator' => new ChangelogConfig(
+     new ChangelogConfig(
         'narrowspark',
         'framework',
         'v' . \Viserio\Component\Foundation\AbstractKernel::VERSION,
